@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terbilang Online (Konversi Angka ke Kata)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Terbilang Online (Konversi Angka ke Kata)</h1>
+        <input type="text" id="numberInput" placeholder="Masukkan angka" oninput="formatNumber()" />
+        <button onclick="convertNumber()">Konversi</button>
+        <p id="result">Hasil: </p>
+        <button id="copyButton" onclick="copyResult()" style="display: none;">Salin Hasil</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
